@@ -1,0 +1,64 @@
+#background {
+    width: 100%;
+    height: 650px;
+    background: url('/images/construct_2.jpg') center center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.35);
+    }
+
+    div {
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        width: 105px;
+        height: 100px;
+        z-index: 2;
+
+        img {
+            position: relative;
+            height: 100px;
+        }
+    }
+
+    section {
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        margin: auto;
+        width: 100%;
+        max-width: 320px;
+        height: 200px;
+        z-index: 2;
+
+        h1,p {
+            color: @defaultTextColor;
+            text-shadow: 0 2px 0 rgba(0,0,0,.5);
+        }
+
+        h1 { font-size: 60px; }
+        p { font-size: 20px; }
+    }
+}
+
+.consummers {
+    .transition(all 700ms ease-out);
+    padding-top: 400px;
+    opacity: 0;
+
+    &.finished { padding-top: 0; opacity: 1; }
+}
+
+footer {
+    width: 100%;
+    background: @diginBlue;
+    color: @defaultTextColor;
+    padding: 30px;
+    .box-sizing();
+}

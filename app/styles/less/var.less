@@ -1,0 +1,25 @@
+/**
+ * Text color
+ */
+@defaultTextColor : #ffffff;
+
+/**
+ * Background color
+ */
+@lightGrey : #eee;
+@diginBlue : #11639e;
+
+/**
+ * Mixins
+ */
+.box-sizing {
+    box-sizing: border-box;
+}
+
+.transition(@transition) {
+	-webkit-transition: @transition;
+	-moz-transition:    @transition;
+	-ms-transition:     @transition;
+	-o-transition:      @transition;
+	transition:			@transition;
+}

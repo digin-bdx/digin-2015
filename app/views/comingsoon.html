@@ -1,0 +1,46 @@
+<div id="background">
+    <div>
+        <img src="images/logo.png" alt="Digin logotype"/>
+    </div>
+    <section>
+        <h1>Digin 2015</h1>
+        <p>On vous prépare un nouveau site.</p>
+    </section>
+</div>
+
+<div class="container consummers row" ng-class="{'finished': scrolled}">
+    <h2>Nos clients</h2>
+    <div ng-repeat="consummer in consummers" class="col s12 m4">
+
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" ng-src="{{ consummer.media.img }}" alt="{{ consummer.name }}">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">{{ consummer.name }} <i class="mdi-navigation-more-vert right"></i></span>
+              <p><a href="#">En savoir plus</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">{{ consummer.name }} <i class="mdi-navigation-close right"></i></span>
+              <p>{{ consummer.type }}</p>
+              <p>{{ consummer.description }}</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="col-lg-8">
+            <p>Tout droits réservés &copy; Digin 2015</p>
+        </div>
+        <div class="col-lg-4">
+            <p>Restons en contact : </p>
+            <ul>
+                <li>Rue des faussets, Bordeaux</li>
+                <li><a href="mailto:david@digin.fr">david@digin.fr</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
