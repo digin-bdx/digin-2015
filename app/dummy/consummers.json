@@ -48,8 +48,8 @@
         },
         {
             "name" : "Maindra",
-            "description" : "",
-            "type" : "",
+            "description" : "Le salon de coiffure jadis nommée 'Hypnotic Hair Design' avait besoin d'une refonte complète de son identité. Nous sommes intervenu avec nos partenaires pour la refonte complète de la marque et des outils de communication, y compris la réalisation d'un site Web responsive visible ici : <a href='http://esprit-maiandra.fr' target='_blank' class='no-style'>esprit-maiandra.fr</a>",
+            "type" : "Recherche de nom de marque, photographie en studio, logo, habillage vitrine, print, site Web, emailing, formation",
             "media" : {
                 "img" : "images/consummers/maiandra.jpeg"
             },
@@ -57,21 +57,24 @@
         },
         {
             "name" : "CNRS",
-            "description" : "",
+            "description" : "Dans le cadre de plusieurs projets notamment axés sur le croisement des données scientifiques nous sommes intervenus au niveau du design des portails Web pour rendre plus accessibles les systèmes d'information destinés à la fois aux institutionnels, aux personnels scientifiques et au grand public. Tout ceci au travers d'un design modernisé et adapté à un discours scientifique vulgarisé.",
+            "type" : "Design & développement Web sur mesure - JAVA Liferay",
             "media" : {
                 "img" : "images/consummers/cnrs.jpg"
             }
         },
         {
             "name" : "Gnubila",
-            "description" : "",
+            "description" : "La plateforme Web française de Gnubila avait besoin d'être complètement renouvellée tout en respectant la charte graphique de la maison mère (<a href='http://www.gnubila.com/' target='_blank' class='no-style'>.gnubila.com</a>). Résultat : un site entièrement en flat design avec intégration vidéo et totalement responsive (s'adapte automatiquement aux tablettes et mobile) : <a href='http://gnubila.fr' target='_blank' class='no-style'>gnubila.fr</a>",
+            "type" : "Design & développement Web sur mesure en flat design et responsive",
             "media" : {
                 "img" : "images/consummers/gnubila.jpg"
             }
         },
         {
             "name" : "Diapason971",
-            "description" : "",
+            "description" : "En partenariat avec le Conseil Régional de la Guadeloupe et le Centre de Formation pour Adultes Jean Belloc, nous avons construit une application Web permettant de mettre en relation à la fois les entreprises, les apprentis, les membres de l'association 3AD et du CFA dans le but d'accompagner les apprentis du CFA vers l'emploi (diagnostique, accompagnement personnalisé, etc). <a href='http://diapason971.digin.fr' target='_blank' class='no-style'>diapason971.digin.fr</a>",
+            "type" : "Design & Développement d'une application Web sur mesure",
             "media" : {
                 "img" : "images/consummers/diapason.png"
             }
