@@ -5,7 +5,7 @@
             "description" : "Réseau social de tennis",
             "type" : "developpement",
             "media" : {
-                "img" : ""
+                "img" : "images/consummers/youkka.JPG"
             },
             "_digin" : "Innovation"
         },
@@ -20,7 +20,7 @@
             "_digin" : "Success"
         },
         {
-            "name" : "Boud'Soie",
+            "name" : "Permigo",
             "description" : "Produits cosmétique",
             "type" : "developpement e-commerce",
             "media" : {
@@ -31,6 +31,15 @@
         {
             "name" : "Melius",
             "description" : "Securité",
+            "type" : "developpement",
+            "media" : {
+                "img" : "images/consummers/melius.png"
+            },
+            "_digin" : "Innovation"
+        },
+        {
+            "name" : "Solaar",
+            "description" : "",
             "type" : "developpement",
             "media" : {
                 "img" : "images/consummers/melius.png"
