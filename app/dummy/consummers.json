@@ -3,7 +3,7 @@
         {
             "name" : "Youkka",
             "description" : "Un réseau social dédié au Tennis pour trouver des partenaires près de chez soi, entièrement fait sur mesure, multilingue, géolocalisation, entièrement responsive, sécurisé, interface d'administration, pages pro, possibilité de lancer des défis et proposer des matchs, messagerie instantannée, gestion du cache avancée, etc. Lancement imminent, découvrez et testez-le ici : http://youkka.digin.fr",
-            "type" : "Desing - Développement",
+            "type" : "Design - Développement",
             "media" : {
                 "img" : "images/consummers/youkka.JPG"
             },
@@ -59,7 +59,7 @@
             "name" : "CNRS",
             "description" : "",
             "media" : {
-                "img" : "images/consummers/melius.png"
+                "img" : "images/consummers/cnrs.jpg"
             }
         },
         {
