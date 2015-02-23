@@ -2,7 +2,7 @@
     "consummers" : [
         {
             "name" : "Youkka",
-            "description" : "Un réseau social dédié au Tennis pour trouver des partenaires près de chez soi, entièrement fait sur mesure, multilingue, géolocalisation, entièrement responsive, sécurisé, interface d'administration, pages pro, possibilité de lancer des défis et proposer des matchs, messagerie instantannée, gestion du cache avancée, etc. Lancement imminent, découvrez et testez-le ici : <a href='http://youkka.digin.fr' title='Youkka' target='_blank'>http://youkka.digin.fr</a>",
+            "description" : "Un réseau social dédié au Tennis pour trouver des partenaires près de chez soi, entièrement fait sur mesure, multilingue, géolocalisation, entièrement responsive, sécurisé, interface d'administration, pages pro, possibilité de lancer des défis et proposer des matchs, messagerie instantannée, gestion du cache avancée, etc. Lancement imminent, découvrez et testez-le ici : <a class='no-style' href='http://youkka.digin.fr' title='Youkka' target='_blank'>youkka.digin.fr</a>",
             "type" : "Design & développement web sur mesure",
             "media" : {
                 "img" : "images/consummers/youkka.JPG"
@@ -30,8 +30,8 @@
         },
         {
             "name" : "Melius",
-            "description" : "Securité",
-            "type" : "developpement",
+            "description" : "Melius est une société canadienne primée pour son innovation dans le domaine de la sécurité. Nous avons été selectionné pour leur proposer un site Web vitrine sur un design épuré et qui devait trancher avec l'austérité habituelle des sites Internet de prestataires en sécurité. Résultat ici : <a class='no-style' href='http://melius.ca' target='_blank'>melius.ca</a>",
+            "type" : "Design & développement Web d'un site vitrine bilingue",
             "media" : {
                 "img" : "images/consummers/melius.png"
             },
@@ -39,8 +39,8 @@
         },
         {
             "name" : "Solaar",
-            "description" : "",
-            "type" : "developpement",
+            "description" : "Solaar fournit aux Canadiens des kits de panneaux solaires à installer chez soi. En plus du site Web responsive <a class='no-style' href='http://solaar.ca' target='_blank'>solaar.ca</a> et de toute la stratégie Webmarketing nous leur avons créé un module sur le site qui calcul les économies réalisables en fonction de la localisation de sa maison (taux d'ensoleillement, surface du toit, inclinaison, etc.).",
+            "type" : "Conseil Webmarketing, design & développement Web sur mesure, référencement naturel",
             "media" : {
                 "img" : "images/consummers/solaar.jpg"
             },

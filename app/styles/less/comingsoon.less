@@ -64,7 +64,17 @@
         font-size: 30px;
     }
 
-    .card { overflow: hidden; }
+    .card {
+        overflow: hidden;
+
+        a.no-style {
+            transition: none;
+            color: @dgDarkBlue;
+            margin-right: 0;
+            text-transform: none;
+        }
+    }
+
     .card-reveal {
 
         p {
