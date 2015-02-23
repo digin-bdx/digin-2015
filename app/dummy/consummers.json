@@ -2,17 +2,17 @@
     "consummers" : [
         {
             "name" : "Youkka",
-            "description" : "Réseau social de tennis",
-            "type" : "developpement",
+            "description" : "Un réseau social dédié au Tennis pour trouver des partenaires près de chez soi, entièrement fait sur mesure, multilingue, géolocalisation, entièrement responsive, sécurisé, interface d'administration, pages pro, possibilité de lancer des défis et proposer des matchs, messagerie instantannée, gestion du cache avancée, etc. Lancement imminent, découvrez et testez-le ici : <a class='no-style' href='http://youkka.digin.fr' title='Youkka' target='_blank'>youkka.digin.fr</a>",
+            "type" : "Design & développement web sur mesure",
             "media" : {
-                "img" : ""
+                "img" : "images/consummers/youkka.JPG"
             },
             "_digin" : "Innovation"
         },
         {
             "name" : "Trampoline Park",
-            "description" : "Ouais ouais du trampoline",
-            "type" : "webmarketing",
+            "description" : "Le lancement du site Web de Trampoline Park s'est fait suite à la mise en place d'une stratégie de Webmarketing que nous avons définie et mise en oeuvre 6 mois avant l'ouverture du Parc. Objectif atteint : La fédération d'une communauté active et engagée sur Facebook autour du concept Trampoline Park avec un positionnement solide sur Google.",
+            "type" : "Conseil et stratégie Webmarketing, référencement naturel, community management",
             "media" : {
                 "video" : "",
                 "img" : "images/consummers/tp.png"
@@ -20,31 +20,64 @@
             "_digin" : "Success"
         },
         {
-            "name" : "Boud'Soie",
-            "description" : "Produits cosmétique",
-            "type" : "developpement e-commerce",
+            "name" : "Permigo, Lyon",
+            "description" : "Permigo, jeune startup lyonnaise innovante a lancé son auto-école en ligne. Nous sommes heureux de pouvoir travailler avec eux sur la stratégie de positionnement Web ainsi que sur sa mise en place opérationnelle au travers d'un référencement naturel agressif et d'une campagne de SEM avec Google Adwords.",
+            "type" : "Conseil et stratégie Webmarketing, référencement naturel, référencement sponsorisé avec Google Adwords",
             "media" : {
-                "img" : ""
+                "img" : "images/consummers/permigo.jpg"
             },
             "_digin" : "Innovation"
         },
         {
             "name" : "Melius",
-            "description" : "Securité",
-            "type" : "developpement",
+            "description" : "Melius est une société canadienne primée pour son innovation dans le domaine de la sécurité. Nous avons été selectionné pour leur proposer un site Web vitrine sur un design épuré et qui devait trancher avec l'austérité habituelle des sites Internet de prestataires en sécurité. Résultat ici : <a class='no-style' href='http://melius.ca' target='_blank'>melius.ca</a>",
+            "type" : "Design & développement Web d'un site vitrine bilingue",
             "media" : {
                 "img" : "images/consummers/melius.png"
             },
             "_digin" : "Innovation"
         },
         {
-            "name" : "Maindra",
-            "description" : "",
-            "type" : "",
+            "name" : "Solaar",
+            "description" : "Solaar fournit aux Canadiens des kits de panneaux solaires à installer chez soi. En plus du site Web responsive <a class='no-style' href='http://solaar.ca' target='_blank'>solaar.ca</a> et de toute la stratégie Webmarketing nous leur avons créé un module sur le site qui calcul les économies réalisables en fonction de la localisation de sa maison (taux d'ensoleillement, surface du toit, inclinaison, etc.).",
+            "type" : "Conseil Webmarketing, design & développement Web sur mesure, référencement naturel",
+            "media" : {
+                "img" : "images/consummers/solaar.jpg"
+            },
+            "_digin" : "Innovation"
+        },
+        {
+            "name" : "Maiandra",
+            "description" : "Le salon de coiffure jadis nommée 'Hypnotic Hair Design' avait besoin d'une refonte complète de son identité. Nous sommes intervenu avec nos partenaires pour la refonte complète de la marque et des outils de communication, y compris la réalisation d'un site Web responsive visible ici : <a href='http://esprit-maiandra.fr' target='_blank' class='no-style'>esprit-maiandra.fr</a>",
+            "type" : "Recherche de nom de marque, photographie en studio, logo, habillage vitrine, print, site Web, emailing, formation",
             "media" : {
                 "img" : "images/consummers/maiandra.jpeg"
             },
             "_digin" : ""
+        },
+        {
+            "name" : "CNRS",
+            "description" : "Dans le cadre de plusieurs projets notamment axés sur le croisement des données scientifiques nous sommes intervenus au niveau du design des portails Web pour rendre plus accessibles les systèmes d'information destinés à la fois aux institutionnels, aux personnels scientifiques et au grand public. Tout ceci au travers d'un design modernisé et adapté à un discours scientifique vulgarisé.",
+            "type" : "Design & développement Web sur mesure - JAVA Liferay",
+            "media" : {
+                "img" : "images/consummers/cnrs.jpg"
+            }
+        },
+        {
+            "name" : "Gnubila",
+            "description" : "La plateforme Web française de Gnubila avait besoin d'être complètement renouvellée tout en respectant la charte graphique de la maison mère (<a href='http://www.gnubila.com/' target='_blank' class='no-style'>gnubila.com</a>). Résultat : un site entièrement en flat design avec intégration vidéo et totalement responsive (s'adapte automatiquement aux tablettes et mobile) : <a href='http://gnubila.fr' target='_blank' class='no-style'>gnubila.fr</a>",
+            "type" : "Design & développement Web sur mesure en flat design et responsive",
+            "media" : {
+                "img" : "images/consummers/gnubila.jpg"
+            }
+        },
+        {
+            "name" : "Diapason971",
+            "description" : "En partenariat avec le Conseil Régional de la Guadeloupe et le Centre de Formation pour Adultes Jean Belloc, nous avons construit une application Web permettant de mettre en relation à la fois les entreprises, les apprentis, les membres de l'association 3AD et du CFA dans le but d'accompagner les apprentis du CFA vers l'emploi (diagnostique, accompagnement personnalisé, etc). <a href='http://diapason971.digin.fr' target='_blank' class='no-style'>diapason971.digin.fr</a>",
+            "type" : "Design & Développement d'une application Web sur mesure",
+            "media" : {
+                "img" : "images/consummers/diapason.png"
+            }
         }
     ]
 }

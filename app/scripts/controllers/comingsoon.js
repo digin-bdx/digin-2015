@@ -2,20 +2,20 @@
 
 /**
  * @ngdoc function
- * @name siteRebootApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the digin app
+ * @name digin.controller:ComingSoonCtrl
+ *
+ * @param {Object} $scope
+ * @param {Object} $http
+ * @param {Object} $log
  */
 angular.module('digin')
-    .controller('ComingSoonCtrl', function ($scope, $http, $document) {
+    .controller('ComingSoonCtrl', function ($scope, $http, $log) {
 
         $scope.consummers = {};
-        $scope.scrolled = true;
 
         $http.get('dummy/consummers.json').success(function(data){
             $scope.consummers = data.consummers;
-            console.log($scope.consummers);
+            $log.info($scope.consummers);
         });
 
     });

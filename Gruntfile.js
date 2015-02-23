@@ -199,7 +199,7 @@ module.exports = function (grunt) {
         src: [
           '<%= yeoman.dist %>/scripts/{,*/}*.js',
           '<%= yeoman.dist %>/styles/{,*/}*.css',
-          '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+          '<%= yeoman.dist %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}',
           '<%= yeoman.dist %>/styles/fonts/*'
         ]
       }
@@ -333,7 +333,8 @@ module.exports = function (grunt) {
             '*.html',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
-            'fonts/{,*/}*.*'
+            'fonts/{,*/}*.*',
+            'dummy/{,*/}*.json'
           ]
         }, {
           expand: true,
@@ -347,12 +348,24 @@ module.exports = function (grunt) {
           dest: '<%= yeoman.dist %>'
         }]
       },
-      styles: {
+    styles: {
         expand: true,
         cwd: '<%= yeoman.app %>/styles',
         dest: '.tmp/styles/',
         src: '{,*/}*.css'
-      }
+    },
+    dummy: {
+        expand: true,
+        cwd: '<%= yeoman.app %>/dummy',
+        dest: '<%= yeoman.dist %>/dummy',
+        src: '**/*'
+    },
+    images: {
+        expand: true,
+        cwd: '<%= yeoman.app %>/images',
+        dest: '<%= yeoman.dist %>/images',
+        src: '{,*/}*.{png,jpg,jpeg,gif,svg}'
+    }
     },
 
     // Run some tasks in parallel to speed up the build process
@@ -425,7 +438,9 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'copy:images',
+    'copy:dummy'
   ]);
 
   grunt.registerTask('default', [
