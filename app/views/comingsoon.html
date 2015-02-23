@@ -23,7 +23,7 @@
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">{{ consummer.name }} <i class="mdi-navigation-close right"></i></span>
               <p class="type">{{ consummer.type }}</p>
-              <p>{{ consummer.description }}</p>
+              <p ng-bind-html="consummer.description">{{ consummer.description }}</p>
             </div>
         </div>
 

@@ -2,8 +2,8 @@
     "consummers" : [
         {
             "name" : "Youkka",
-            "description" : "Un réseau social dédié au Tennis pour trouver des partenaires près de chez soi, entièrement fait sur mesure, multilingue, géolocalisation, entièrement responsive, sécurisé, interface d'administration, pages pro, possibilité de lancer des défis et proposer des matchs, messagerie instantannée, gestion du cache avancée, etc. Lancement imminent, découvrez et testez-le ici : http://youkka.digin.fr",
-            "type" : "Design - Développement",
+            "description" : "Un réseau social dédié au Tennis pour trouver des partenaires près de chez soi, entièrement fait sur mesure, multilingue, géolocalisation, entièrement responsive, sécurisé, interface d'administration, pages pro, possibilité de lancer des défis et proposer des matchs, messagerie instantannée, gestion du cache avancée, etc. Lancement imminent, découvrez et testez-le ici : <a href='http://youkka.digin.fr' title='Youkka' target='_blank'>http://youkka.digin.fr</a>",
+            "type" : "Design & développement web sur mesure",
             "media" : {
                 "img" : "images/consummers/youkka.JPG"
             },
@@ -11,8 +11,8 @@
         },
         {
             "name" : "Trampoline Park",
-            "description" : "Ouais ouais du trampoline",
-            "type" : "Webmarketing - Developpement",
+            "description" : "Le lancement du site Web de Trampoline Park s'est fait suite à la mise en place d'une stratégie de Webmarketing que nous avons définie et mise en oeuvre 6 mois avant l'ouverture du Parc. Objectif atteint : La fédération d'une communauté active et engagée sur Facebook autour du concept Trampoline Park avec un positionnement solide sur Google.",
+            "type" : "Conseil et stratégie Webmarketing, référencement naturel, community management",
             "media" : {
                 "video" : "",
                 "img" : "images/consummers/tp.png"
@@ -20,9 +20,9 @@
             "_digin" : "Success"
         },
         {
-            "name" : "Permigo",
-            "description" : "Produits cosmétique",
-            "type" : "developpement e-commerce",
+            "name" : "Permigo, Lyon",
+            "description" : "Permigo, jeune startup lyonnaise innovante a lancé son auto-école en ligne. Nous sommes heureux de pouvoir travailler avec eux sur la stratégie de positionnement Web ainsi que sur sa mise en place opérationnelle au travers d'un référencement naturel agressif et d'une campagne de SEM avec Google Adwords.",
+            "type" : "Conseil et stratégie Webmarketing, référencement naturel, référencement sponsorisé avec Google Adwords",
             "media" : {
                 "img" : "images/consummers/permigo.jpg"
             },
