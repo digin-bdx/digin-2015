@@ -51,7 +51,7 @@
         }
 
         h1 { font-size: 70px; font-family: "Colaborate-light"; }
-        p { font-size: 24px; }
+        p { font-size: 24px; font-family: "Colaborate-thin"; }
     }
 }
 
@@ -64,13 +64,19 @@
     }
 
     .card { overflow: hidden; }
-    .card-reveal { color: @darkText; }
+    .card-reveal {
+
+        p {
+            &.type { color: @dgDarkBlue; }
+            color: @darkText;
+            font-family: "Colaborate-light";
+        }
+    }
 }
 
 footer {
     width: 100%;
-    background: @dgDarkBlue;
-    color: @defaultTextColor;
+    color: @darkText;
     padding: 30px;
     .box-sizing();
 }

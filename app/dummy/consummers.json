@@ -2,8 +2,8 @@
     "consummers" : [
         {
             "name" : "Youkka",
-            "description" : "Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis",
-            "type" : "developpement",
+            "description" : "Un réseau social dédié au Tennis pour trouver des partenaires près de chez soi, entièrement fait sur mesure, multilingue, géolocalisation, entièrement responsive, sécurisé, interface d'administration, pages pro, possibilité de lancer des défis et proposer des matchs, messagerie instantannée, gestion du cache avancée, etc. Lancement imminent, découvrez et testez-le ici : http://youkka.digin.fr",
+            "type" : "Desing - Développement",
             "media" : {
                 "img" : "images/consummers/youkka.JPG"
             },
