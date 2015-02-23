@@ -2,7 +2,7 @@
     "consummers" : [
         {
             "name" : "Youkka",
-            "description" : "Réseau social de tennis",
+            "description" : "Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis Réseau social de tennis",
             "type" : "developpement",
             "media" : {
                 "img" : "images/consummers/youkka.JPG"
@@ -24,7 +24,7 @@
             "description" : "Produits cosmétique",
             "type" : "developpement e-commerce",
             "media" : {
-                "img" : ""
+                "img" : "images/consummers/permigo.jpg"
             },
             "_digin" : "Innovation"
         },
