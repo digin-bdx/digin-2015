@@ -12,7 +12,7 @@
         {
             "name" : "Trampoline Park",
             "description" : "Ouais ouais du trampoline",
-            "type" : "webmarketing",
+            "type" : "Webmarketing - Developpement",
             "media" : {
                 "video" : "",
                 "img" : "images/consummers/tp.png"
@@ -42,7 +42,7 @@
             "description" : "",
             "type" : "developpement",
             "media" : {
-                "img" : "images/consummers/melius.png"
+                "img" : "images/consummers/solaar.jpg"
             },
             "_digin" : "Innovation"
         },
@@ -54,6 +54,27 @@
                 "img" : "images/consummers/maiandra.jpeg"
             },
             "_digin" : ""
+        },
+        {
+            "name" : "CNRS",
+            "description" : "",
+            "media" : {
+                "img" : "images/consummers/melius.png"
+            }
+        },
+        {
+            "name" : "Gnubila",
+            "description" : "",
+            "media" : {
+                "img" : "images/consummers/gnubila.jpg"
+            }
+        },
+        {
+            "name" : "Diapason971",
+            "description" : "",
+            "media" : {
+                "img" : "images/consummers/diapason.png"
+            }
         }
     ]
 }
