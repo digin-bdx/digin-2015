@@ -17,7 +17,7 @@
 
         <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" ng-src="{{ consummer.media.img }}" alt="{{ consummer.name }}">
+              <img preload-image fallback-image="images/fallback.jpg" default-image="{{ consummer.media.img }}" class="activator" ng-src="{{ consummer.media.img }}" alt="{{ consummer.name }}">
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">{{ consummer.name }} <i class="mdi-navigation-more-vert right"></i></span>
@@ -35,13 +35,17 @@
 
 <footer>
     <div class="container">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6">
+        <div class="col-lg-3">
             <span>Keep in touch</span>
+        </div>
+        <div class="col-lg-3">
             <a href="https://www.facebook.com/digin33?fref=ts" target="_blank">Facebook</a>
+        </div>
+        <div class="col-lg-3">
             <a href="https://twitter.com/agencedigin" target="_blank">Twitter</a>
+        </div>
+        <div class="col-lg-3">
             <a href="tel:0984299471">09 84 29 94 71</a>
         </div>
-        <div class="col-lg-3"></div>
     </div>
 </footer>

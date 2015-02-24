@@ -15,7 +15,8 @@ angular
         'ngResource',
         'ngRoute',
         'ngSanitize',
-        'ngTouch'
+        'ngTouch',
+        'angular-preload-image'
     ])
     .config(function ($routeProvider, $locationProvider) {
 

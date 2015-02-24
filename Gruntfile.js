@@ -264,7 +264,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>/images',
-          src: '{,*/}*.{png,jpg,jpeg,gif}',
+          src: '**/*.{png,jpg,jpeg,gif,JPG}',
           dest: '<%= yeoman.dist %>/images'
         }]
       }
@@ -346,8 +346,14 @@ module.exports = function (grunt) {
           cwd: 'bower_components/bootstrap/dist',
           src: 'fonts/*',
           dest: '<%= yeoman.dist %>'
-        }]
+      }]
       },
+    material :  {
+        expand: true,
+        cwd: 'bower_components/materialize/dist/font/material-design-icons',
+        src: '**/*',
+        dest: '<%= yeoman.dist %>/font/material-design-icons'
+    },
     styles: {
         expand: true,
         cwd: '<%= yeoman.app %>/styles',
@@ -440,6 +446,7 @@ module.exports = function (grunt) {
     'usemin',
     'htmlmin',
     'copy:images',
+    'copy:material',
     'copy:dummy'
   ]);
 
