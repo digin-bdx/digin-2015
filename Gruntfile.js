@@ -352,7 +352,7 @@ module.exports = function (grunt) {
         expand: true,
         cwd: 'bower_components/materialize/dist/font/material-design-icons',
         src: '**/*',
-        dest: '<%= yeoman.dist %>/fonts/material-design-icons'
+        dest: '<%= yeoman.dist %>/font/material-design-icons'
     },
     styles: {
         expand: true,
