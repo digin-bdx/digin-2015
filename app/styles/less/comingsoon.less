@@ -67,7 +67,7 @@
 }
 
 .consummers {
-    padding: 40px 0;
+    padding-top: 40px;
 
     h2 {
         color: @darkText;
@@ -101,8 +101,27 @@ footer {
     color: @darkText;
     padding: 30px;
     .box-sizing();
+    text-align: center;
+}
 
-    a {
-        margin: 0 10px;
+@media screen and (max-width: 640px) {
+
+    #background {
+        div {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 75px;
+            height: 70px;
+
+            img { height: 70px; }
+        }
+
+        section {
+
+            h1 { font-size: 50px; }
+            p { font-size: 18px; }
+        }
     }
+
 }
