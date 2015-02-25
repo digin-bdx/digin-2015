@@ -15,7 +15,7 @@
     <h2>En attendant, consultez nos dernières collaborations</h2>
     <div ng-repeat="consummer in consummers" class="consummer-card col s12 m6 l4">
 
-        <div class="card">
+        <div class="card" ng-hide="$index == 0">
             <div class="card-image waves-effect waves-block waves-light">
               <img preload-image fallback-image="images/fallback.jpg" default-image="{{ consummer.media.img }}" class="activator" ng-src="{{ consummer.media.img }}" alt="{{ consummer.name }}">
             </div>
