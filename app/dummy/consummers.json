@@ -2,7 +2,7 @@
     "consummers" : [
         {
             "name" : "Youkka",
-            "description" : "Un réseau social dédié au Tennis pour trouver des partenaires près de chez soi, entièrement fait sur mesure, multilingue, géolocalisation, entièrement responsive, sécurisé, interface d'administration, pages pro, possibilité de lancer des défis et proposer des matchs, messagerie instantannée, gestion du cache avancée, etc. Lancement imminent, découvrez et testez-le ici : <a class='no-style' href='http://youkka.digin.fr' title='Youkka' target='_blank'>youkka.digin.fr</a>",
+            "description" : "Un réseau social dédié au Tennis pour trouver des partenaires près de chez soi, entièrement fait sur mesure, multilingue, géolocalisation, entièrement responsive, sécurisé, interface d'administration, pages pro, possibilité de lancer des défis et proposer des matchs, messagerie instantannée, gestion du cache avancée, etc. Inscrivez vous ici <a class='no-style' href='http://youkka.com' title='Youkka' target='_blank'>youkka.com</a>",
             "type" : "Design & développement web sur mesure",
             "media" : {
                 "img" : "images/consummers/youkka.JPG"
